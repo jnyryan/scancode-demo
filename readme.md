@@ -38,7 +38,10 @@ A simple static page application that runs on Heroku
 	
 # Testing
 
-	To run and test it locally run the command
+	To run and test it locally run these commands
+		bundle install
 		rackup
+		
+	Then open browser on http://127.0.0.1:9393
 	
 
