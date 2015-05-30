@@ -86,7 +86,8 @@
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
-
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    
   </head>
 
   <body>
@@ -94,57 +95,45 @@
     <div class="container">
 
       <div class="masthead">
-        <h3 class="muted">heroku-simple-rack-site</h3>
+        <h3 class="muted">scancode demo</h3>
         <div class="navbar">
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="https://github.com/patchapps/heroku-simple-rack-website/archive/master.zip">Download</a></li>
-                <li><a target="new" href="https://github.com/patchapps/heroku-simple-rack-website">Source Code</a></li>
-                <li><a target="new" href="http://github.com/patchapps">Git Projects</a></li>
+                <li><a href="https://github.com/jnyryan/scancode-polymer/archive/master.zip">Download</a></li>
+                <li><a target="new" href="https://github.com/jnyryan/scancode-polymer">Source Code</a></li>
+                <li><a target="new" href="http://github.com/jnyryan">Git Projects</a></li>
               </ul>
             </div>
           </div>
         </div><!-- /.navbar -->
       </div>
 
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>heroku-simple-rack-site!</h1>
-        <p class="lead">A simple website created on heroku using RACK and Twitter Boostrap</p>
-        
-      </div>
-
-      <hr>
-
       <!-- Example row of columns -->
       <div class="row-fluid">
-        <div class="span4">
+        <div class="span12">
           <h2>Patchapps</h2>
           <p>My Patchapps Blog - where i keep my ideas and ramblings</p>
-          <p><a class="btn" href="http://www.patchapps.com">View details &raquo;</a></p>
         </div>
-        <div class="span4">
-          <h2>Heroku</h2>
-          <p>Free scalable web hosting for this app</p>
-          <p><a class="btn" href="http://www.heroku.com">View details &raquo;</a></p>
-       </div>
-        <div class="span4">
-          <h2>Twitter Bootstrap</h2>
-          <p>Where I got the HTML for this app.</p>
-          <p><a class="btn" href="http://twitter.github.io/bootstrap">View details &raquo;</a></p>
+      </div>
+      <div class="row-fluid">
+        <div class="span12">
+          <h2>Rendered Scancode Element</h2>
+          <div>
+            <scan-code id="anycode" type="qrcode" data="www.johnryan.io" format="ean8" height="100" width="100"></scan-code>
+          </div>
         </div>
       </div>
 
       <hr>
-
       <div class="footer">
         <p>&copy; Patchapps.com 2013</p>
       </div>
 
     </div> <!-- /container -->
-  
+
 
   </body>
+
 </html>
