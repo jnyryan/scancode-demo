@@ -1,33 +1,33 @@
 BUILD LOG
 ---------
-Build Time: 2015-05-26T17:48:07-0700
+Build Time: 2015-07-09T14:48:58-0700
 
 NODEJS INFORMATION
 ==================
-nodejs: v2.0.2
-gulp: 3.8.11
+nodejs: v2.3.3
+gulp: 3.9.0
 gulp-audit: 1.0.0
-gulp-concat: 2.5.2
+gulp-concat: 2.6.0
 gulp-header: 1.2.2
-run-sequence: 1.1.0
-web-component-tester: 3.1.3
 gulp-uglify: 1.2.0
+run-sequence: 1.1.1
+web-component-tester: 3.2.0
 
 REPO REVISIONS
 ==============
-webcomponentsjs: 131ea2174ec5c4d4a48e6637cc0751dc5dee43a3
+webcomponentsjs: b0f4eff3e501b07960de40386bcac47c2afeb851
 
 BUILD HASHES
 ============
-CustomElements.js: 62dbb3db0856c43bb43a90c1f9ac400cb568d2e2
-CustomElements.min.js: 482d41c9b901e21b8be5dde1f334579bea9b3278
-HTMLImports.js: 6aa44b4dbe224ba04011308ffcfc7bac4d2ecf45
-HTMLImports.min.js: ac0190e185cf6a3fcd9b092b2143b8796c2b2db7
-MutationObserver.js: 6d07c7fab2a59b4d3face7bf3b61474514d506ec
-MutationObserver.min.js: 3e3ec659c0b2c27d5717f2155507d76f06abf103
-ShadowDOM.js: aeb06cb34b92f5fd5f91e169a8545043a4c06e4e
-ShadowDOM.min.js: a615e963dfa831edadd0457327a7c3818693e19c
-webcomponents-lite.js: 5ebee320c939e16c7747d354a7b59c5eaf6372b3
-webcomponents-lite.min.js: 3c4c323b2584c009791a41a351491f610e2cc253
-webcomponents.js: a028071aec0b77be6f1c562552f199ea57f73869
-webcomponents.min.js: 57b88a10558b60e24f309ff6dc914d9100977895
+CustomElements.js: 1ff9c23ef55581aadb5a50655991fcba1636d2a6
+CustomElements.min.js: 6e0b479f58c532480dfd1d3dc139c473f52e294c
+HTMLImports.js: a90ec72d207a969c56c4ff90913ec2b39a8b3bf9
+HTMLImports.min.js: 564b11763a82f4cd1264be0573201692b5c50948
+MutationObserver.js: e3321d300deb7a866867338be3adce94bb23abb1
+MutationObserver.min.js: 3a46adba0a5cdbb3a715a67bce650360e6698615
+ShadowDOM.js: bfe2d7926de503650f95396e7e86f08bc052dbe2
+ShadowDOM.min.js: 10349ae64abd33583e70938a988e557b974e31bb
+webcomponents-lite.js: c43501d2096a2df3f09b371683ee8ba40e78afea
+webcomponents-lite.min.js: e609a0b6f32ff4563b96b4f2a0729cf330ed708c
+webcomponents.js: ebc995d9ff946a4cf0777ab04351aad28bc3ea03
+webcomponents.min.js: 88447a12ec66927d1159fd9ead01bf87a2fdd927

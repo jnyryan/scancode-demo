@@ -1,0 +1,26 @@
+{
+  "name": "scancode-demo",
+  "version": "1.0.0",
+  "description": "a demo for a polymer element",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnyryan/scancode-demo.git"
+  },
+  "keywords": [
+    "polymer"
+  ],
+  "author": "John Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnyryan/scancode-demo/issues"
+  },
+  "homepage": "https://github.com/jnyryan/scancode-demo",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}

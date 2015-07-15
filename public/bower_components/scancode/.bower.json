@@ -1,6 +1,6 @@
 {
   "name": "scancode",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "authors": [
     "jnyryan <jnyryan@gmail.com>"
   ],
@@ -29,14 +29,14 @@
     "polymer": "Polymer/polymer#^1.0.0",
     "jquery": "~2.1.4"
   },
-  "_release": "0.0.5",
+  "_release": "0.0.8",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.5",
-    "commit": "457fe1f17222a2d9933095f8095597557ef4aa63"
+    "tag": "v0.0.8",
+    "commit": "3589b508d26c85d77cc479640a9b9848634ee6e4"
   },
   "_source": "git://github.com/jnyryan/scancode-polymer.git",
-  "_target": "~0.0.5",
+  "_target": "~0.0.8",
   "_originalSource": "scancode",
   "_direct": true
 }
