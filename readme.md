@@ -1,47 +1,13 @@
-# heroku-simple-rack-site
+# scancode-demo
 
-A simple static page application that runs on Heroku
+A demo page for my Polymer component ***Scan-code***
 
-#Installation
+## Demo
+
+See a live demo hosted on Heroku at [http://scancode-demo.herokuapp.com/](http://scancode-demo.herokuapp.com/) 
 	
-	Prerequisites
-	- Heroku account
-	- Heroku toolbelt installed
-	- Ruby and Bundler Gem installed
-	
-	1. Clone this Repo
-	2. Login into Heroku
-		heroku login
-	3. Initialise the heroku site
-		heroku create
-	4. Push to Heroku.
-		git push heroku master
-		
-	That's it!!!!
+## Scan-Code component
 
-# The important bits
+Use or Contribute to Scan Code [here](https://github.com/jnyryan/scancode-polymer)
 
-	Gemfile
-		Tells the ruby interpreter whats needed and what to install
-	
-	config.ru
-		configures RACK, the web server that will host the application
-	
-# The HTML
-
-	All the html code and graphics are freely available from Twitter Bootstrap.
-
-##References
-
-	https://devcenter.heroku.com/articles/static-sites-ruby
-	http://twitter.github.io/bootstrap/getting-started.html
-	
-# Testing
-
-	To run and test it locally run these commands
-		bundle install
-		rackup
-		
-	Then open browser on http://127.0.0.1:9393
-	
 
